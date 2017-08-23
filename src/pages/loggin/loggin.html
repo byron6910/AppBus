@@ -1,0 +1,49 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Loggin</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content scroll="false">
+  <div class="splash-bg"></div>
+  <div class="splash-info">
+    <div class="splash-logo"></div>
+    <div class="splash-intro">
+   LOGGIN
+    </div>
+  </div>
+    
+  <div padding>  
+<form>
+ <ion-list>
+
+  <ion-item>
+    <ion-label floating>Username</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label floating>Password</ion-label>
+    <ion-input type="password"></ion-input>
+  </ion-item>
+
+</ion-list>
+
+      <div padding>
+        <button ion-button color="primary" block icon-right (click)="goToInicio()"> <ion-icon name="ios-log-in-outline"> </ion-icon>
+          Iniciar Session
+          </button>
+      </div>
+      
+      <div padding>
+        <button ion-button color="primary" block icon-right (click)="goToFormulario()"> <ion-icon name="md-person-add"> </ion-icon>Crear Nueva Cuenta</button>
+      </div>
+    
+    
+
+  </form>
+    </div>
+</ion-content>
+
